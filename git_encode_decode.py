@@ -19,4 +19,12 @@ def encode(password):
         new += str(temp)
 
     return new
+
+
+#Cole Emerine is adding the decode file that decodes the encoded password back to the original
 def decode(encoded)
+    for item in encoded:
+        temp = int(item)-3
+        decode += str(temp)
+
+    return decode
